@@ -7,12 +7,71 @@
     clear:both;
 }
 
-.cm6{
-    float:left;
-    width:50%;
+.cs1, .cs2, .cs3, .cs4, .cs5, .cs6, .cs7, .cs8, .cs9, .cs10, .cs11, .cs12,
+.cm1, .cm2, .cm3, .cm4, .cm5, .cm6, .cm7, .cm8, .cm9, .cm10, .cm11, .cm12,
+.cl1, .cl2, .cl3, .cl4, .cl5, .cl6, .cl7, .cl8, .cl9, .cl10, .cl11, .cl12,
+.cxl1, .cxl2, .cxl3, .cxl4, .cxl5, .cxl6, .cxl7, .cxl8, .cxl9, .cxl10, .cxl11, .cxl12 {
+        float:left;  
+    }
+
+.cs1{width: 8.33333333%;}
+.cs2{width: 16.66666666%;}
+.cs3{width: 25%;}
+.cs4{width: 33.33333333%;}
+.cs5{width: 41.66666667%;}
+.cs6{width: 50%;}
+.cs7{width: 58.33333333%;}
+.cs8{width: 66.66666667%;}
+.cs9{width: 75%;}
+.cs10{width: 83.33333333%;}
+.cs11{width: 91.66666667%;}
+.cs12 {width: 100%;}
+
+@media only screen and (max-width: 700px){
+    .hide-s{display: none;}
 }
 
-cs12{
-    float:left;
-    width:100%
+@media only screen and (min-width: 700px){
+    .cm1{width: 8.33333333%;}
+    .cm2{width: 16.66666666%;}
+    .cm3{width: 25%;}
+    .cm4{width: 33.33333333%;}
+    .cm5{width: 41.66666667%;}
+    .cm6{width: 50%;}
+    .cm7{width: 58.33333333%;}
+    .cm8{width: 66.66666667%;}
+    .cm9{width: 75%;}
+    .cm10{width: 83.33333333%;}
+    .cm11{width: 91.66666667%;}
+    .cm12 {width: 100%;} 
+}
+
+@media only screen and (min-width: 900px){
+    .cl1{width: 8.33333333%;}
+    .cl2{width: 16.66666666%;}
+    .cl3{width: 25%;}
+    .cl4{width: 33.33333333%;}
+    .cl5{width: 41.66666667%;}
+    .cl6{width: 50%;}
+    .cl7{width: 58.33333333%;}
+    .cl8{width: 66.66666667%;}
+    .cl9{width: 75%;}
+    .cl10{width: 83.33333333%;}
+    .cl11{width: 91.66666667%;}
+    .cl12 {width: 100%;} 
+}
+
+@media only screen and (min-width: 1080px){
+    .cxl1{width: 8.33333333%;}
+    .cxl2{width: 16.66666666%;}
+    .cxl3{width: 25%;}
+    .cxl4{width: 33.33333333%;}
+    .cxl5{width: 41.66666667%;}
+    .cxl6{width: 50%;}
+    .cxl7{width: 58.33333333%;}
+    .cxl8{width: 66.66666667%;}
+    .cxl9{width: 75%;}
+    .cxl10{width: 83.33333333%;}
+    .cxl11{width: 91.66666667%;}
+    .cxl12 {width: 100%;} 
 }
